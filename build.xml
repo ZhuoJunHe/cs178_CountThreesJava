@@ -1,0 +1,18 @@
+
+<!-- CountThreesJava -->
+
+<project name="CountThreesJava" default="compile" basedir=".">
+	<description>
+		simple CountThreesJava ant
+	</description>
+
+	<!-- no variables and directories created -->
+
+	<target name="compile" description="compile java">
+		<javac srcdir="." destdir="."/>
+	</target>
+
+	<!-- option, rm all *.class file-->
+</project>
+
+
